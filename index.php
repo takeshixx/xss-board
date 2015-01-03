@@ -1,4 +1,4 @@
-# author: takeshix@adversec.com
+// author: takeshix@adversec.com
 <?php
 if(!isset($_COOKIE["PHPSESSID"]))
     setcookie('PHPSESSID',md5(uniqid(rand(), true)));
